@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<title>Stop Digging Through Dashboards</title>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="viewport">
+  <section class="screen" id="screen">
+    <video class="background" autoplay muted loop playsinline disablepictureinpicture aria-hidden="true">
+      <source src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260808_064556_051587f1-74a1-4336-8c05-4dde3594ed05.mp4" type="video/mp4">
+    </video>
+
+    <header class="header" id="header">
+      <a class="brand" href="#" aria-label="Vantage home">
+        <svg viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <clipPath id="discClip"><circle cx="12.5" cy="12.5" r="12.5"/></clipPath>
+          </defs>
+          <g clip-path="url(#discClip)">
+            <rect width="25" height="25" fill="#ededed"/>
+            <path d="M12.5 0 L25 12.5 L12.5 12.5 Z" fill="#0a0b0b"/>
+            <path d="M12.5 12.5 L25 12.5 L25 25 Z" fill="#737778"/>
+            <path d="M0 12.5 L12.5 12.5 L12.5 25 Z" fill="#050606"/>
+            <path d="M12.5 0 L12.5 12.5 L0 12.5 Z" fill="#fafafa"/>
+          </g>
+        </svg>
+      </a>
+
+      <div class="header-actions" id="tablet-navigation">
+        <nav class="nav" aria-label="Primary">
+          <a href="#" class="active">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </nav>
+
+        <div class="time-panel">
+          <span class="label">Timezone</span>
+          <span class="value">9:47 PM&nbsp; &bull; &nbsp;14 July 2026</span>
+        </div>
+
+        <button class="sign-up" type="button">Sign Up</button>
+      </div>
+
+      <button class="menu-toggle" type="button" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="tablet-navigation">
+        <svg viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line class="bar bar-top" x1="2" y1="6" x2="16" y2="6" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+          <line class="bar bar-bottom" x1="2" y1="12" x2="16" y2="12" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          <span class="line line-one"><span class="line-reveal">Stop Digging</span></span>
+          <span class="line line-two"><span class="line-reveal">Through Dashboards.</span></span>
+        </h1>
+
+        <p class="hero-copy">
+          Your metrics are scattered across a dozen dashboards.<br>
+          Vantage bring them into one clear signal, so every<br>
+          decision is backed by data you actually trust.
+        </p>
+
+        <button class="primary-cta" type="button">
+          <span class="label">Get Started</span>
+          <span class="arrow-box">
+            <svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 11L11 3M11 3H4.5M11 3V9.5" stroke="#fff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        </button>
+      </div>
+
+      <article class="demo-card">
+        <div class="demo-visual">
+          <div class="smoke-fallback" aria-hidden="true"></div>
+          <img src="assets/watch-demo-thumbnail.png" alt="Abstract red and blue smoke" onerror="this.style.display='none'">
+          <button class="play" type="button" aria-label="Play demo">
+            <svg viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 1.5V14.5L13 8L1 1.5Z" fill="#fff"/>
+            </svg>
+          </button>
+        </div>
+        <button class="watch-button" type="button">Watch Demo</button>
+      </article>
+    </section>
+  </section>
+</main>
+</body>
+</html>
